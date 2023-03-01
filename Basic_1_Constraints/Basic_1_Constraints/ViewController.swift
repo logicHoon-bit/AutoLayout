@@ -21,9 +21,6 @@ class ViewController: UIViewController {
     
     
     
-    @IBAction func testButton(_ sender: Any) {
-        print("test")
-    }
     
 
 }

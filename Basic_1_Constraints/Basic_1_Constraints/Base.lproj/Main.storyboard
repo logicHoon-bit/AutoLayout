@@ -32,15 +32,6 @@
                                 <viewLayoutGuide key="contentLayoutGuide" id="zdH-xN-MIB"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="abA-bb-lBi"/>
                             </scrollView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="os1-oh-gMI">
-                                <rect key="frame" x="120" y="491" width="75" height="35"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Button"/>
-                                <connections>
-                                    <action selector="testButton:" destination="SUq-8L-dP2" eventType="touchUpInside" id="9ht-Jo-Fsb"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="hOo-l0-5aw"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
