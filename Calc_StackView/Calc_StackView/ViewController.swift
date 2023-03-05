@@ -54,6 +54,8 @@ extension ViewController {
         self.view.addSubview(resultLabel)
         resultLabel.backgroundColor = .systemGray
         resultLabel.text = "Result Value"
+        resultLabel.layer.cornerRadius = 30
+        resultLabel.layer.masksToBounds = true
         
         
         buttonTable = UIView()
@@ -136,8 +138,8 @@ extension ViewController {
         btn.setTitle(buttonString, for: .normal)
         btn.backgroundColor = .black
         
-        btn.layer.cornerRadius = 47
-        btn.layer.masksToBounds = true
+        btn.layer.cornerRadius = 48
+        //btn.layer.masksToBounds = true
         
         return btn
     }
