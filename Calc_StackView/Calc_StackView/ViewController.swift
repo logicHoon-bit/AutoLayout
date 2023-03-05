@@ -50,6 +50,8 @@ class ViewController: UIViewController {
 extension ViewController {
     
     fileprivate func initUI(){
+        self.view.backgroundColor = .white
+        
         resultLabel = UILabel()
         self.view.addSubview(resultLabel)
         resultLabel.backgroundColor = .systemGray
@@ -138,7 +140,7 @@ extension ViewController {
         btn.setTitle(buttonString, for: .normal)
         btn.backgroundColor = .black
         
-        btn.layer.cornerRadius = 48
+        btn.layer.cornerRadius = 47
         //btn.layer.masksToBounds = true
         
         return btn
